@@ -1,0 +1,34 @@
+# Webhook Configuration
+
+## Description
+
+This webhook is used to receive realtime sensor data
+for the AI Agriculture Monitoring System.
+
+## Method
+
+POST
+
+## Expected Payload
+
+```json
+{
+  "soil_moisture": 68,
+  "nitrogen": 45,
+  "phosphorus": 32,
+  "potassium": 51
+}
+```
+
+## Workflow Process
+
+1. Receive sensor data
+2. Fetch weather information
+3. Generate AI recommendation
+4. Save report to Google Sheets
+5. Send Telegram notification
+
+## Security Note
+
+Webhook URL is stored securely using environment variables
+and is not exposed publicly.
