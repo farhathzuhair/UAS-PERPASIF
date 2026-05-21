@@ -1,0 +1,2 @@
+={{ `🌱 ANALISIS PERTANIAN AI📊 Soil Moisture: ${$json.soil_moisture}%🧪 Nitrogen: ${$json.nitrogen} mg/kg🧪 Phosphorus: ${$json.phosphorus} mg/kg🧪 Potassium: ${$json.potassium} mg/kg🌡️ Temperature: ${$json.temperature}°C💧 Humidity: ${$json.humidity}%☁️ Weather: ${$json.weather}💡 Rekomendasi AI:${$json.ai_message}`}}
+chat id = 8615353784
