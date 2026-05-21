@@ -1,3 +1,0 @@
-#HTTP REQUEST OPEN WEATHER
-
-https://api.openweathermap.org/data/2.5/weather?q=Makassar&appid=dd5a7d8bc8ccf34ce1cc150108492085&units=metric

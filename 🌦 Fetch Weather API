@@ -1,0 +1,20 @@
+# OpenWeather API Configuration
+
+## Endpoint
+
+https://api.openweathermap.org/data/2.5/weather
+
+## Query Parameters
+
+* q=Makassar
+* units=metric
+* appid=${OPENWEATHER_API_KEY}
+
+## Example Request
+
+GET /data/2.5/weather?q=Makassar&units=metric
+
+## Description
+
+This API is used to retrieve realtime weather data
+for the AI Agriculture Monitoring System.
